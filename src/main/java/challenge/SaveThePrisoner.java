@@ -8,7 +8,10 @@ public class SaveThePrisoner {
 	static int saveThePrisoner(int n, int m, int s) {
 		int result = 0;
 		
+		// remaining sugar
 		int mod = m % n;
+		
+		// if sugar equals to prisoner it returns 1 chair back since round table
 		if(mod == 0) {
 			if(s == 1) {
 				return n;
@@ -17,8 +20,10 @@ public class SaveThePrisoner {
 			}
 		}
 		
+		// sum of remaining sugar and chair count gives where distribution ends
 		result = mod + s - 1;
 		
+		// if sugar count exceeds chair count
 		if(result > n) {
 			result -= n;
 		}
