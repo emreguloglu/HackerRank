@@ -1,4 +1,4 @@
-package challenge;
+package thirty.days.of.code;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

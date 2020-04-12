@@ -1,4 +1,4 @@
-package challenge;
+package thirty.days.of.code;
 
 import java.util.Deque;
 import java.util.LinkedList;
